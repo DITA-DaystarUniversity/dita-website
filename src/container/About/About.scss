@@ -3,7 +3,8 @@
   padding: 4em;
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  align-items: center;
+  gap: 40px;
   border-radius: 5px;
 
   @media (max-width: 500px) {
@@ -12,8 +13,9 @@
 
   .separator {
     background-color: #fff;
-    width: 10px;
-    height: 100px;
+    width: 15px;
+    height: 150px;
+    // margin-top: 50px;
     border-radius: 10px;
 
     @media (max-width: 500px) {
@@ -39,7 +41,7 @@
 }
 
 .missionStatement {
-  margin-top: 5em;
+  margin-top: 2em;
   display: flex;
   align-items: center;
   justify-content: space-between;

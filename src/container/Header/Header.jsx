@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.scss";
 import Carousel from "react-bootstrap/Carousel";
+import firstImg from "../../assets/ditaLogo.jpeg";
 
 // import { images } from "../../constants";
 
@@ -11,7 +12,7 @@ const Header = () => {
         <Carousel.Item interval={1700}>
           <img
             className="imgCarousel"
-            src="https://images.pexels.com/photos/6146970/pexels-photo-6146970.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            src="https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="First slide"
           />
           <Carousel.Caption className="Carousel__caption">
@@ -23,7 +24,7 @@ const Header = () => {
           <img
             className="imgCarousel"
             // style={{ height: "200px" }}
-            src="https://images.pexels.com/photos/6893810/pexels-photo-6893810.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            src="https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="Second slide"
           />
           <Carousel.Caption className="Carousel__caption">
@@ -36,7 +37,7 @@ const Header = () => {
         <Carousel.Item>
           <img
             className="imgCarousel"
-            src="https://images.pexels.com/photos/6140697/pexels-photo-6140697.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            src="https://images.pexels.com/photos/1714205/pexels-photo-1714205.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="Third slide"
           />
           <Carousel.Caption className="Carousel__caption">

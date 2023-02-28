@@ -46,7 +46,7 @@ const Events = () => {
       </h2>
 
       <div className="app__work-filter">
-        {["Upcoming", "Happening", "Recent", "Past", "All"].map(
+        {["Upcoming", "NRBI Campus", "Happening", "Recent", "Past", "All"].map(
           (item, index) => (
             <div
               key={index}
